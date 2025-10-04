@@ -1,62 +1,64 @@
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/Tesseract.gif" align="right" height="500">
+<img src="imgs/Tesseract.gif" align="right" height="500">
 
 # The Inception
 
 This installation contains **inception** and **bonus part.**
 
 ## 🧭 Road Map
-1. [Preparation](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#one-part-1---preparation)
-   - [Install Packages](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#install-packages)
-   - [Configuration](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#configurations)
-   - [VS Code Remote Connection](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#vs-code-remote-connection)
-   - [For Using Docker Commands Without Sudo](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#for-using-docker-commands-without-sudo)
-2. [Inception](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#two-part-2---inception)
-   - [PID 1](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#pid-1)
-   - [CMD - ENTRYPOINT](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#cmd---entrypoint)
-   - [About .sh Files](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#about-sh-files)
-   - [Security of Using Password in Dockerfile](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#security-of-using-password-in-dockerfile)
-   - [When to Transfer ENV Values ​​to a Container?](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#when-to-transfer-env-values-to-a-container)
-   - [How Does .env File Work in Docker?](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#how-does-env-file-work-in-docker)
-   - [DBRFCWEVFWRWE-C](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#difference-between-running-a-sh-file-created-with-envs-or-values-in-the-env-file-with-run-or-with-entrypoint-cmd)
-   - [About Latest Tag](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#tags-of-docker-images-and-docker-compose-be-latest-by-default-and-can-be-changed)
-   - [Getting Config Files of Services With docker cp](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#getting-config-files-of-services-with-docker-cp)
-   - [docker inspect/logs/attach Commands](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#docker-inspectlogsattach-commands)
-3. [Services](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#three-part-3---services)
-   - [For Nginx](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#yarn-for-nginx)
-   - [For WordPress](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#thread-for-wordpress)
-   - [For MariaDB](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#sewing_needle-for-mariadb)
-4. [~ B O N U S ~](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#four-part-4----b-o-n-u-s-)
-   - [For Adminer](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#plunger-for-adminer)
-   - [For Website](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#placard-for-website)
-   - [For Redis](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#fire_extinguisher-for-redis)
-   - [For FTP Server](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#sponge-for-ftp-server)
-   - [For Own Service](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#window-for-own-service)
-   - [For QEMU Service](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#paintbrush-for-qemu-service)
-5. [Sources](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.md#paperclip-sources)
-   - [VS Code](https://github.com/Fartomy/42-Kickoff/tree/master/Inception#vs-code)
-   - [Docker Essentials](https://github.com/Fartomy/42-Kickoff/tree/master/Inception#docker-essentials)
-   - [Nginx](https://github.com/Fartomy/42-Kickoff/tree/master/Inception#nginx)
-   - [WordPress](https://github.com/Fartomy/42-Kickoff/tree/master/Inception#wordpress)
-   - [MariaDB](https://github.com/Fartomy/42-Kickoff/tree/master/Inception#mariadb)
-   - [B O N U S](https://github.com/Fartomy/42-Kickoff/tree/master/Inception#b-o-n-u-s)
-     - [Adminer](https://github.com/Fartomy/42-Kickoff/tree/master/Inception#adminer)
-     - [Website](https://github.com/Fartomy/42-Kickoff/tree/master/Inception#website)
-     - [Redis](https://github.com/Fartomy/42-Kickoff/tree/master/Inception#redis)
-     - [FTP Server](https://github.com/Fartomy/42-Kickoff/tree/master/Inception#ftp-server)
-     - [Own Service](https://github.com/Fartomy/42-Kickoff/tree/master/Inception#own-service-1)
+1. [Preparation](#one-part-1---preparation)
+   - [Install Packages](#install-packages)
+   - [Configuration](#configurations)
+   - [VS Code Remote Connection](#vs-code-remote-connection)
+   - [For Using Docker Commands Without Sudo](#for-using-docker-commands-without-sudo)
+2. [Inception](#two-part-2---inception)
+   - [PID 1](#pid-1)
+   - [CMD - ENTRYPOINT](#cmd---entrypoint)
+   - [About .sh Files](#about-sh-files)
+   - [Security of Using Password in Dockerfile](#security-of-using-password-in-dockerfile)
+   - [When to Transfer ENV Values ​​to a Container?](#when-to-transfer-env-values-to-a-container)
+   - [How Does .env File Work in Docker?](#how-does-env-file-work-in-docker)
+   - [DBRFCWEVFWRWE-C](#difference-between-running-a-sh-file-created-with-envs-or-values-in-the-env-file-with-run-or-with-entrypoint-cmd)
+   - [About Latest Tag](#tags-of-docker-images-and-docker-compose-be-latest-by-default-and-can-be-changed)
+   - [Getting Config Files of Services With docker cp](#getting-config-files-of-services-with-docker-cp)
+   - [docker inspect/logs/attach Commands](#docker-inspectlogsattach-commands)
+3. [Services](#three-part-3---services)
+   - [For Nginx](#yarn-for-nginx)
+   - [For WordPress](#thread-for-wordpress)
+   - [For MariaDB](#sewing_needle-for-mariadb)
+4. [~ B O N U S ~](#four-part-4----b-o-n-u-s-)
+   - [For Adminer](#plunger-for-adminer)
+   - [For Website](#placard-for-website)
+   - [For Redis](#fire_extinguisher-for-redis)
+   - [For FTP Server](#sponge-for-ftp-server)
+   - [For Own Service](#window-for-own-service)
+   - [For QEMU Service](#paintbrush-for-qemu-service)
+5. [Sources](#paperclip-sources)
+   - [VS Code](#vs-code)
+   - [Docker Essentials](#docker-essentials)
+   - [Nginx](#nginx)
+   - [WordPress](#wordpress)
+   - [MariaDB](#mariadb)
+   - [B O N U S](#b-o-n-u-s)
+     - [Adminer](#adminer)
+     - [Website](#website)
+     - [Redis](#redis)
+     - [FTP Server](#ftp-server)
+     - [Own Service](#own-service-1)
 
 ## :one: Part 1 - Preparation
 
 This installation is based on **Debian**, but it can be selected in any distribution.
-For this, I will direct you to the installation instructions familiar from [B2B](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.md#one-part-1---install-debian).
+For this, I will direct you to the installation instructions familiar from [B2B](../Born2beroot/debian#one-part-1---install-debian).
 
 ### VirtualBox Network Setting
 
 In order to avoid having to deal with port redirects, change the _**NAT**_ setting to _**Bridge Adapter**_ in the network settings in Vbox.
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/vboxbridgenetwork.JPG" align="center" height="800">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/bridgenetwork2.JPG" align="center" height="800">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/bridgenetwork3.JPG" align="center" height=800">
+<img src="imgs/vboxbridgenetwork.JPG" align="center" height="800">
+</br>
+<img src="imgs/bridgenetwork2.JPG" align="center" height="800">
+</br>
+<img src="imgs/bridgenetwork3.JPG" align="center" height=800">
 
 ### Install Packages
 
@@ -76,7 +78,7 @@ startx
 
 You can see the content by **right click** in the black screen.
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/openboxusage.JPG" align="center" height="800">
+<img src="imgs/openboxusage.JPG" align="center" height="800">
 
 ### Configurations
 
@@ -84,11 +86,11 @@ Again, as a reflection of my laziness, I will give some redirections for **sudo*
 
 #### Sudo Mini Config
 For sudo, just type `<your_username> ALL=(ALL:ALL) ALL` under root line in the sudo config file. </br>
-[Sudo Config](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#godmode-for-sudo)
+[Sudo Config](../Born2beroot/debian#godmode-for-sudo)
 
 #### SSH Mini Config
 For SSH, just you can remove the comment line in the port line and give it a port number of your choice. Optionally, set `PermitRootLogin` to `yes` for root login permission. </br>
-[SSH Config](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#-for-ssh)
+[SSH Config](../Born2beroot/debian#-for-ssh)
 
 Don't forget:
 ```
@@ -100,13 +102,19 @@ Don't forget:
 ### VS Code Remote Connection
 Invest in the future by not prolonging this laziness any longer, but by using it for the last time, in order to better understand why there is so much laziness in the next part.
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/vscoderemote.JPG" align="center" height="800">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/vscoderemote2.jpg" align="center" height="800">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/vscoderemote3.jpg" align="center" height="800">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/vscoderemote4.jpg" align="center" height="800">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/vscoderemote5.jpg" align="center" height="800">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/vscoderemote6.jpg" align="center" height="800">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/vscoderemote7.jpg" align="center" height="800">
+<img src="imgs/vscoderemote.JPG" align="center" height="800">
+</br>
+<img src="imgs/vscoderemote2.jpg" align="center" height="800">
+</br>
+<img src="imgs/vscoderemote3.jpg" align="center" height="800">
+</br>
+<img src="imgs/vscoderemote4.jpg" align="center" height="800">
+</br>
+<img src="imgs/vscoderemote5.jpg" align="center" height="800">
+</br>
+<img src="imgs/vscoderemote6.jpg" align="center" height="800">
+</br>
+<img src="imgs/vscoderemote7.jpg" align="center" height="800">
 
 If you get an error similar to this: </br>
 
@@ -487,7 +495,7 @@ Adminer is a tool that allows viewing and managing database tables via the brows
 
 #### Information required to login
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/adminer-login.png" align="center" height="800">
+<img src="imgs/adminer-login.png" align="center" height="800">
 
 Since we access the services over the network and we access them through container names, we will write our container name `mariadb` where it says `Server`. 
 And then we can view the tables by entering the user information with `DB_USER` and `DB_USER_PASS`, which we created for the first time in the MariaDB installation, and specifying our database name with `DB_NAME`.
@@ -790,8 +798,8 @@ In the Qemu dockerfile, _trixie-slim debian version_ is used, which offers more 
 1. [Error code: ssl_error_rx_record_too_long on nginx ubuntu server](https://stackoverflow.com/questions/25081239/error-code-ssl-error-rx-record-too-long-on-nginx-ubuntu-server)
 
 ### WordPress
-1. [Github Fartomy PHP](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#%EF%B8%8F-for-php)
-2. [Github Fartomy Wordpress](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#-for-wordpress)
+1. [Github Fartomy PHP](../Born2beroot/debian#%EF%B8%8F-for-php)
+2. [Github Fartomy Wordpress](../Born2beroot/debian#-for-wordpress)
 2. [Installing WP-CLI](https://make.wordpress.org/cli/handbook/guides/installing/)
 2. [WP Core Install](https://developer.wordpress.org/cli/commands/core/install/)
 2. [WP User Create](https://developer.wordpress.org/cli/commands/user/create/)
@@ -799,7 +807,7 @@ In the Qemu dockerfile, _trixie-slim debian version_ is used, which offers more 
 2. [Wordpress Theme Setup](https://wordpress.com/themes/free)
 
 ### MariaDB
-1. [Github Fartomy MariaDB](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#-for-mariadb)
+1. [Github Fartomy MariaDB](../Born2beroot/debian#-for-mariadb)
 
 #### B O N U S
 
@@ -859,4 +867,4 @@ In the Qemu dockerfile, _trixie-slim debian version_ is used, which offers more 
 
 🏁And finally README.md ends here..🏁
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/googledream.jpg" align="center">
+<img src="imgs/googledream.jpg" align="center">
