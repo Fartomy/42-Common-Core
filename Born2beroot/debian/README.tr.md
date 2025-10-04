@@ -1,4 +1,4 @@
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/debian_gif.gif" align="right" height="400">
+<img src="materials/debian_gif.gif" align="right" height="400">
 
 # Debian
 
@@ -6,30 +6,30 @@ Bu kurulum için **Debian** temel alınmıştır ve **bonus bölüm** dahildir.
 
 ## 🧭 Yol Haritası
 
-1.  [Kısım 1 - Debian Yükleme](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#one-k%C4%B1s%C4%B1m-1---debian-y%C3%BCkleme)
+1.  [Kısım 1 - Debian Yükleme](#one-k%C4%B1s%C4%B1m-1---debian-y%C3%BCkleme)
 
-2. [Kısım 2 - İndirmeler ve Ayarlamalar ve Yapılandırmalar](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#two-k%C4%B1s%C4%B1m-2---i%CC%87ndirmeler-ve-ayarlamalar-ve-yap%C4%B1land%C4%B1rmalar)
-   - [SSH için](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#-ssh-i%C3%A7in)
-   - [UFW için](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#%EF%B8%8F-ufw-i%C3%A7in)
-   - [Sudo için](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#godmode-sudo-i%C3%A7in)
-   - [Şifreleme Politikası](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#%EF%B8%8F-%C5%9Fifreleme-politikas%C4%B1)
+2. [Kısım 2 - İndirmeler ve Ayarlamalar ve Yapılandırmalar](#two-k%C4%B1s%C4%B1m-2---i%CC%87ndirmeler-ve-ayarlamalar-ve-yap%C4%B1land%C4%B1rmalar)
+   - [SSH için](#-ssh-i%C3%A7in)
+   - [UFW için](#%EF%B8%8F-ufw-i%C3%A7in)
+   - [Sudo için](#godmode-sudo-i%C3%A7in)
+   - [Şifreleme Politikası](#%EF%B8%8F-%C5%9Fifreleme-politikas%C4%B1)
 
-3. [Kısım 3 - Monitoring.sh and Crontab Yapılandırmaları](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#3%EF%B8%8F%E2%83%A3-k%C4%B1s%C4%B1m-3---monitoringsh-ve-crontab-yap%C4%B1land%C4%B1rmalar%C4%B1)
+3. [Kısım 3 - Monitoring.sh and Crontab Yapılandırmaları](#3%EF%B8%8F%E2%83%A3-k%C4%B1s%C4%B1m-3---monitoringsh-ve-crontab-yap%C4%B1land%C4%B1rmalar%C4%B1)
 
-4. [Bonus Kısım - WordPress Kurulumu ve Hizmetinizin Seçimi](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#%EF%B8%8F%E2%83%A3-k%C4%B1s%C4%B1m-bonus---wordpress-kurulumu-ve-hizmetinizin-se%C3%A7imi)
+4. [Bonus Kısım - WordPress Kurulumu ve Hizmetinizin Seçimi](#%EF%B8%8F%E2%83%A3-k%C4%B1s%C4%B1m-bonus---wordpress-kurulumu-ve-hizmetinizin-se%C3%A7imi)
 
-      - [WordPress Kurulumu](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#-wordpress-kurulumu)
-         - [Lighttpd için](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#-lighttpd-i%C3%A7in)
-         - [MariaDB için](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#-mariadb-i%C3%A7in)
-         - [PHP için](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#%EF%B8%8F-php-i%C3%A7in)
-         - [WordPress için](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#-wordpress-i%C3%A7in)
-      - [Hizmetinizin Seçimi](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#-hizmetinizin-se%C3%A7imi)
+      - [WordPress Kurulumu](#-wordpress-kurulumu)
+         - [Lighttpd için](#-lighttpd-i%C3%A7in)
+         - [MariaDB için](#-mariadb-i%C3%A7in)
+         - [PHP için](#%EF%B8%8F-php-i%C3%A7in)
+         - [WordPress için](#-wordpress-i%C3%A7in)
+      - [Hizmetinizin Seçimi](#-hizmetinizin-se%C3%A7imi)
 
-6. [Kısım 4 - Gönderim ve Akran Değerlendirmesi](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#4%EF%B8%8F%E2%83%A3-k%C4%B1s%C4%B1m-4---g%C3%B6nderim-ve-akran-de%C4%9Ferlendirmesi)
+6. [Kısım 4 - Gönderim ve Akran Değerlendirmesi](#4%EF%B8%8F%E2%83%A3-k%C4%B1s%C4%B1m-4---g%C3%B6nderim-ve-akran-de%C4%9Ferlendirmesi)
 
-7. [Ekstra ve Kaynaklar](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#5%EF%B8%8F%E2%83%A3-ekstralar-ve-kaynaklar)
-   - [Ekstralar](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#-ekstralar)
-   - [Kaynaklar](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#brain-kaynaklar)
+7. [Ekstra ve Kaynaklar](#5%EF%B8%8F%E2%83%A3-ekstralar-ve-kaynaklar)
+   - [Ekstralar](#-ekstralar)
+   - [Kaynaklar](#brain-kaynaklar)
   
 ## :one: Kısım 1 - Debian Yükleme
 
@@ -41,17 +41,17 @@ Bu kurulum için **Debian** temel alınmıştır ve **bonus bölüm** dahildir.
 
 Yükleme sonrası VirtualBox'ı açın:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/1.png" align="center" height="325">
+<img src="materials/1.png" align="center" height="325">
 
 Sonraki sonraki sonraki.. ve 'Makine Klasörü', makine klasörünüzün yolu '/goinfre' olacaktır ancak sabit disk dosya türünün vdi olmasına dikkat edin.
 
 Daha sonra **'.iso'** Debian dosyasını seçin. Oluşturduğunuz sanal makineye tıklayın ve yukarıdaki **'ayarlar'** seçeneğine tıklayın. ve buradan **'Depolama'** seçeneğine tıklayın, **'Boş'** seçeneğine tıklayın ve sağ pencerede **'Optik Sürücü'** seçeneğinin yanındaki **CD** işaretine basın. Oradan, **'Disk Dosyasını Seç'** seçeneğine tıklayın ve indirdiğiniz debian **'.iso' dosyasını seçin.
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/2.png" align="center" height="325">
+<img src="materials/2.png" align="center" height="325">
 
 Kurulum videosu:
 
-[Debian Kurulum Videosu](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/setup_debian.mp4)
+[Debian Kurulum Videosu](materials/setup_debian.mp4)
 
 **🏁Ve nihayet Bölüm 1 burada bitiyor..🏁**
 
@@ -59,8 +59,9 @@ Kurulum videosu:
 
 Bu ekranı göreceksiniz, muhtemelen bu giriş ekranıdır
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/31.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/32.png" align="center" height="300">
+<img src="materials/31.png" align="center" height="300">
+</br>
+<img src="materials/32.png" align="center" height="300">
 
 Bu komutu çalıştırarak diskinizin bölümlerini ve şifrelenmiş bölümlerini görebilirsiniz:
 
@@ -207,8 +208,9 @@ Bu ayarları değiştirmelisiniz:
 - Bu arada yukarıda bahsettiğim 2 ayar için '#' işaretlerini kaldırmanız yeterli. Hepsini değil :D
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/33.png" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/34.png" align="center" height="300">
+<img src="materials/33.png" height="300">
+</br>
+<img src="materials/34.png" align="center" height="300">
 
 Tamam, bu ayarları yaptıktan sonra şu komutla yeniden başlatın:
 
@@ -218,8 +220,9 @@ systemctl restart sshd
 
 Daha sonra VirtualBox'a gelin ve üstteki **'ayarlar'** tuşuna basın, ardından **'ağ'**'a basın, ardından altta **'Gelişmiş'** bölmesi olacak, oraya tıklayın ve ** tuşuna basın 'Bağlantı Noktası Yönlendirme'**. Sağda yeşil **'+'** işareti olan bir buton göreceksiniz, evet ona basın ve tablo gibi bir şey görünecektir. **'Ana Bilgisayar bağlantı noktası'** ve **'Tahmin Bağlantı Noktası'** bölümlerinde resimdeki gibi yapın. Zaten resim ekliyorum, neden açıklama ihtiyacı hissettim bilmiyorum. Neyse, tamam tamam'a basın ve bitti.
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/35.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/36.png" align="center" height="300">
+<img src="materials/35.png" align="center" height="300">
+</br>
+<img src="materials/36.png" align="center" height="300">
 
 Bunları yaptıktan sonra sanal makinenizi yeniden başlatın:
 
@@ -233,8 +236,9 @@ Bu ayarlardan sonra artık ana makineden sanal makineye bağlanabilirsiniz:
 ssh your_username@localhost -p 4242
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/37.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/38.png" align="center" height="300">
+<img src="materials/37.png" align="center" height="300">
+</br>
+<img src="materials/38.png" align="center" height="300">
 
 Ve sanal makinenize kullanıcının şifresini girerek ana bilgisayarın terminalinden sanal makineye erişebilirsiniz.
 
@@ -303,7 +307,7 @@ UFW'nin durumuna göz atın:
 # ufw deny 4242
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/39.png" align="center" height="300">
+<img src="materials/39.png" align="center" height="300">
 
 bir kuralı silmek için:
 
@@ -337,7 +341,7 @@ visudo -> Let's enter the configuration file with this command
 
 Şöyle bir ekran gelmeli:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/40.png" align="center" height="300">
+<img src="materials/40.png" align="center" height="300">
 
 Buraya bazı katı kurallar ekleyin:
  
@@ -402,7 +406,7 @@ Sudo komutu "komut bulunamadı" hatası veriyorsa, bu secure_path'in çalıştı
 
 Sonuncusu şöyle görünmeli:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/41.png" align="center" height="300">
+<img src="materials/41.png" align="center" height="300">
 
 Bunları onaylamak için _root_'tan çıkıp `sudo` komutuyla neler yapılabileceğini deneyebilirsiniz.
 
@@ -417,7 +421,7 @@ nano /etc/login.defs
 ```
 Şu şekilde bulabilirsiniz _Password aging control_:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/42.png" align="center" height="300">
+<img src="materials/42.png" align="center" height="300">
 
 Daha sonra bunu şu şekilde yapın:
 
@@ -443,7 +447,7 @@ Değiştirmek için:
 # chage <user_name>
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/43.png" align="center" height="300">
+<img src="materials/43.png" align="center" height="300">
 
 Ne yapacağını biliyorsun..
 
@@ -463,7 +467,7 @@ nano /etc/security/pwquality.conf
 
 Şöyle bir şeyle karşılaşacaksınız:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/44.png" align="center" height="300">
+<img src="materials/44.png" align="center" height="300">
 
 İşte değiştirmeniz gerekenler:
 
@@ -499,7 +503,7 @@ Nasıl mı?
 
 İncelemek isterseniz yukarıda _monitoring.sh_ dosyasını paylaştım.
 
-[Monitoring.sh](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/monitoring.sh)
+[Monitoring.sh](../monitoring.sh)
 
 ### ⏰ Crontab (cron)
 
@@ -527,7 +531,7 @@ Neyse, altına şunu yazın:
 */10 * * * * bash /your/monitoring.sh_path
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/45.png" align="center" height="300">
+<img src="materials/45.png" align="center" height="300">
 
 **🏁Ve nihayet 3.Bölüm burada bitiyor..🏁**
 
@@ -559,7 +563,7 @@ ufw allow 80
 
 **VirtualBox** üzerindeki _port yönlendirme_ ayarlarından _80_ numaralı bağlantı noktasını iletin.
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/41.png" align="center" height="300">
+<img src="../rocky/materials/41.png" align="center" height="300">
 
 #### 🧼 MariaDB için
 
@@ -780,9 +784,11 @@ Artık WordPress kurulum sayfasına gidebiliriz:
 http://localhost:8080/index.php
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/52.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/53.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/54.png" align="center" height="300">
+<img src="../rocky/materials/52.png" align="center" height="300">
+</br>
+<img src="../rocky/materials/53.png" align="center" height="300">
+</br>
+<img src="../rocky/materials/54.png" align="center" height="300">
 
 
 Sistemdeki `wp-config.php` dosyasına yazma izniyle ilgili sorun yaşıyoruz.
@@ -793,11 +799,15 @@ chown -R www-data:www-data /var/www/html/
 
 Tekrar deneyin.
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/55.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/56.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/57.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/58.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/59.png" align="center" height="300">
+<img src="../rocky/materials/55.png" align="center" height="300">
+</br>
+<img src="../rocky/materials/56.png" align="center" height="300">
+</br>
+<img src="../rocky/materials/57.png" align="center" height="300">
+</br>
+<img src="../rocky/materials/58.png" align="center" height="300">
+</br>
+<img src="../rocky/materials/59.png" align="center" height="300">
 
 Son olarak, şu `/var/www/html/` yolundaki `index.lighttpd.html` dosyasını yeniden adlandırmalı veya silmelisiniz:
 
@@ -831,7 +841,7 @@ ufw allow 5050
 
 VirtualBox ayarlarındaki **port yönlendirme** ayarından _5050_ bağlantı noktasını ekleyin:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/35.png" align="center" height="300">
+<img src="materials/35.png" align="center" height="300">
 
 Hizmeti oluşturmak için `/etc/systemd/system` dizininde `python-http-server.service` adında bir dosya oluşturun:
 
@@ -945,4 +955,4 @@ nc <IPv4_adress> <port>
 
 **🏁Ve son olarak README.md burada bitiyor..🏁**
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/matrix.gif" align="right" height="550">
+<img src="materials/matrix.gif" align="right" height="550">
