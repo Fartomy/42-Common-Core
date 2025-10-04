@@ -1,4 +1,4 @@
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/rocky_linux.png" align="right" height="400">
+<img src="materials/rocky_linux.png" align="right" height="400">
 
 # Rocky
 
@@ -6,27 +6,22 @@ Bu kurulum **Rocky Linux** tabanlıdır ve **bonus bölüm** dahildir.
 
 ## 🧭 Yol Haritası
 
-1. [Kısım 1 - Rocky Yükleme](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/README.tr.md#1%EF%B8%8F%E2%83%A3-k%C4%B1s%C4%B1m-1---rocky-linux-y%C3%BCkleme)
-
-2. [Kısım 2 - İndirmeler ve Ayarlamalar ve Yapılandırmalar](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/README.tr.md#2%EF%B8%8F%E2%83%A3-k%C4%B1s%C4%B1m-2---i%CC%87ndirmeler-ve-ayarlamalar-ve-yap%C4%B1land%C4%B1rmalar)
-   - [SSH için](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/README.tr.md#-ssh-i%C3%A7in)
-   - [Sudo için](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/README.tr.md#godmode-sudo-i%C3%A7in)
-   - [Şifreleme Politikası](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/README.tr.md#%EF%B8%8F-%C5%9Fifreleme-politikas%C4%B1)
-
-3. [Kısım 3 - Monitoring.sh ve Crontab Yapılandırmaları](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/README.tr.md#3%EF%B8%8F%E2%83%A3-k%C4%B1s%C4%B1m-3---monitoringsh-ve-crontab-yap%C4%B1land%C4%B1rmalar%C4%B1)
-
-4. [Kısım 4 - Son Kontroller](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/README.tr.md#four-k%C4%B1s%C4%B1m-4---son-kontroller)
-
-5. [Bonus Bölüm - WordPress Kurulumu ve Hizmetinizin Seçimi](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/README.tr.md#%EF%B8%8F%E2%83%A3-bonus-b%C3%B6l%C3%BCm---wordpress-kurulumu-ve-hizmetinizin-se%C3%A7imi)
-   - [WordPress Kurulumu](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/README.tr.md#-wordpress-kurulumu)
-        - [Lighttpd için](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/README.tr.md#-lighttpd-i%C3%A7in)
-        - [MariaDB için](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/README.tr.md#-mariadb-i%C3%A7in)
-        - [PHP için](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/README.tr.md#%EF%B8%8F-php-i%C3%A7in)
-        - [WordPress için](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/README.tr.md#-wordpress-i%C3%A7in)
-   - [Hizmetinizin Seçimi](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/README.tr.md#-hizmetinizin-se%C3%A7imi)
-
-6. [Kısım 5 - Gönderim ve Akran Değerlendirmesi](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/README.tr.md#-k%C4%B1s%C4%B1m-5---g%C3%B6nderim-ve-akran-de%C4%9Ferlendirmesi)
-7. [Kaynaklar](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/README.tr.md#-kaynaklar)
+1. [Kısım 1 - Rocky Yükleme](#1%EF%B8%8F%E2%83%A3-k%C4%B1s%C4%B1m-1---rocky-linux-y%C3%BCkleme)
+2. [Kısım 2 - İndirmeler ve Ayarlamalar ve Yapılandırmalar](#2%EF%B8%8F%E2%83%A3-k%C4%B1s%C4%B1m-2---i%CC%87ndirmeler-ve-ayarlamalar-ve-yap%C4%B1land%C4%B1rmalar)
+   - [SSH için](#-ssh-i%C3%A7in)
+   - [Sudo için](#godmode-sudo-i%C3%A7in)
+   - [Şifreleme Politikası](#%EF%B8%8F-%C5%9Fifreleme-politikas%C4%B1)
+3. [Kısım 3 - Monitoring.sh ve Crontab Yapılandırmaları](#3%EF%B8%8F%E2%83%A3-k%C4%B1s%C4%B1m-3---monitoringsh-ve-crontab-yap%C4%B1land%C4%B1rmalar%C4%B1)
+4. [Kısım 4 - Son Kontroller](#four-k%C4%B1s%C4%B1m-4---son-kontroller)
+5. [Bonus Bölüm - WordPress Kurulumu ve Hizmetinizin Seçimi](#%EF%B8%8F%E2%83%A3-bonus-b%C3%B6l%C3%BCm---wordpress-kurulumu-ve-hizmetinizin-se%C3%A7imi)
+   - [WordPress Kurulumu](#-wordpress-kurulumu)
+        - [Lighttpd için](#-lighttpd-i%C3%A7in)
+        - [MariaDB için](#-mariadb-i%C3%A7in)
+        - [PHP için](#%EF%B8%8F-php-i%C3%A7in)
+        - [WordPress için](#-wordpress-i%C3%A7in)
+   - [Hizmetinizin Seçimi](#-hizmetinizin-se%C3%A7imi)
+6. [Kısım 5 - Gönderim ve Akran Değerlendirmesi](#-k%C4%B1s%C4%B1m-5---g%C3%B6nderim-ve-akran-de%C4%9Ferlendirmesi)
+7. [Kaynaklar](#-kaynaklar)
 
 ## 1️⃣ Kısım 1 - Rocky Linux Yükleme
 
@@ -36,18 +31,18 @@ Bu kurulum **Rocky Linux** tabanlıdır ve **bonus bölüm** dahildir.
 
 Kurulum videosu:
 
-[Rocky Kurulum Videosu](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/setup_rocky.mp4)
+[Rocky Kurulum Videosu](materials/setup_rocky.mp4)
 
 
 **🏁Ve nihayet Kısım 1 burada bitiyor.🏁**
 
 ## 2️⃣ Kısım 2 - İndirmeler ve Ayarlamalar ve Yapılandırmalar
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/25.png" align="center" height="300">
+<img src="materials/25.png" align="center" height="300">
 
 Disk şifrenizi girdikten sonra bu ekranı göreceksiniz. Muhtemelen bu giriş ekranıdır. :D
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/26.png" align="center" height="300">
+<img src="materials/26.png" align="center" height="300">
 
 Bu komutu çalıştırarak diskinizin bölümlerini ve şifrelenmiş bölümlerini görebilirsiniz:
 
@@ -177,8 +172,9 @@ Bu ayarları değiştirmelisiniz:
 - Ve evet, '#' işaretini de kaldırın, yorum satırı olarak kalmaması için. :)
 - Bu arada yukarıda bahsettiğim 2 ayar için '#' işaretlerini kaldırmanız yeterli. :D
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/27.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/28.png" align="center" height="300">
+<img src="materials/27.png" align="center" height="300">
+</br>
+<img src="materials/28.png" align="center" height="300">
 
 Tamam, bu ayarları yaptıktan sonra şu komutla yeniden başlatın:
 
@@ -188,7 +184,7 @@ systemctl restart sshd
 
 Muhtemelen şöyle bir hatayla karşılaşacaksınız:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/29.png" align="center" height="300">
+<img src="materials/29.png" align="center" height="300">
 
 Çözüme:
 
@@ -255,8 +251,9 @@ Tamam, artık birçok şeyi kontrol ettiğimize ve bundan emin olduğumuza göre
 
 Sanal kutunuza geri dönün ve üstteki _settings_'e, ardından _network_'e basın, ardından altta _Gelişmiş_ bölme olacaktır, oraya tıklayın ve _Port Yönlendirme_'ye basın. Sağda yeşil __+_ işaretli bir buton göreceksiniz, evet ona basın ve tablo gibi bir şey görünecektir. _Host port_ ve _Guess Port_ bölümlerinde resimdeki gibi yapın. Zaten resim ekliyorum, neden açıklama ihtiyacı hissettim bilmiyorum. Neyse, tamam tamam'a basın ve bitti.
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/35.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/36.png" align="center" height="300">
+<img src="../debian/materials/35.png" align="center" height="300">
+</br>
+<img src="../debian/materials/36.png" align="center" height="300">
 
 
 Artık ana makineniz aracılığıyla SSH aracılığıyla bağlanmaya hazırız gibi görünüyor.
@@ -320,7 +317,7 @@ visudo
 
 Şöyle bir ekran gelmeli:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/30.png" align="center" height="300">
+<img src="materials/30.png" align="center" height="300">
 
 Buraya bazı katı kurallar ekleyin:
 
@@ -335,7 +332,7 @@ Defaults     iolog_dir="/var/log/sudo/" -> path of inputs and outputs
 
 Sonuncusu şöyle görünmeli:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/31.png" align="center" height="300">
+<img src="materials/31.png" align="center" height="300">
 
 _[@@@ İlginç Antik Bilgiler @@@]_
 
@@ -401,7 +398,7 @@ nano /etc/login.defs
 
 Buradan bulabilirsiniz _Password aging control_:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/32.png" align="center" height="300">
+<img src="materials/32.png" align="center" height="300">
 
 Daha sonra bunu şu şekilde yapın:
 
@@ -429,7 +426,7 @@ Değiştirmek için:
 # chage <user_name>
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/33.png" align="center" height="300">
+<img src="materials/33.png" align="center" height="300">
 
 Ne yapacağını biliyorsun..
 
@@ -443,7 +440,7 @@ vi /etc/security/pwquality.conf
 
 Şöyle bir şeyle karşılaşacaksınız:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/pwquality-before.png" align="center" height="300">
+<img src="materials/pwquality-before.png" align="center" height="300">
 
 İşte değiştirmeniz gerekenler:
 
@@ -460,7 +457,7 @@ usercheck = 1
 dictcheck = 1
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/pwquality-after.png" align="center" height="300">
+<img src="materials/pwquality-after.png" align="center" height="300">
 
 Açıklama yazmayacağım, zaten yazılmış :()
 
@@ -479,7 +476,7 @@ _**⚠️ Evet, hepsi bu, ancak bunları yaptıktan sonra yine de root'un, kulla
 
 İncelemek isterseniz yukarıda _monitoring.sh_ dosyasını paylaştım.
 
-[monitoring.sh](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/monitoring.sh)
+[monitoring.sh](../monitoring.sh)
 
 ### ⏰ Crontab (cron)
 
@@ -537,7 +534,7 @@ firewall-cmd --state
 
 Örneğin ben `ss -tunlp` komutundan beklenen çıktıyı alamadım. _chronyd_ isimli servis belli bir port üzerinde dinleme yapıyordu, şimdi kapatalım.
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/34.png" align="center" height="300">
+<img src="materials/34.png" align="center" height="300">
 
 Çözüm:
 
@@ -546,11 +543,11 @@ firewall-cmd --state
 systemctl disable chronyd
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/35.png" align="center" height="300">
+<img src="materials/35.png" align="center" height="300">
 
 Son olarak güvenlik duvarında çalışan birçok hizmet var
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/36.png" align="center" height="300">
+<img src="materials/36.png" align="center" height="300">
 
 Bunları kaldırmak için:
 
@@ -560,7 +557,7 @@ Bunları kaldırmak için:
 # firewall-cmd --reload
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/37.png" align="center" height="300">
+<img src="materials/37.png" align="center" height="300">
 
 **🏁 Ve nihayet Kısım 4 burada bitiyor.. 🏁**
 
@@ -588,7 +585,7 @@ dnf -y install epel-release && dnf -y update && dnf -y install lighttpd
 
 Bunları çözmek için:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/38.png" align="center" height="300">
+<img src="materials/38.png" align="center" height="300">
 
 Selinux politika ayarlarında "httpd_setrlimit"i etkinleştirin:
 ```
@@ -603,8 +600,9 @@ vi /etc/lighttpd/lighttpd.conf
 
 `server.use-ipv6 = "enable"` bölümünü bulun ve bu satırı `server.use-ipv6 = "disable"` olarak değiştirin
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/39.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/40.png" align="center" height="300">
+<img src="materials/39.png" align="center" height="300">
+</br>
+<img src="materials/40.png" align="center" height="300">
 
 **lighttpd** hizmetini yeniden başlatın:
 
@@ -621,7 +619,7 @@ Güvenlik duvarınızda HTTP trafiğini açtığınızdan emin olun:
 
 VirtualBox'ın bağlantı noktası yönlendirme ayarlarına port'u ekleyin:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/41.png" align="center" height="300">
+<img src="materials/41.png" align="center" height="300">
 
 Şimdi tarayıcınızı açın ve Lighttpd web sunucunuzun çalıştığını doğrulamak için aşağıdaki URL'ye gidin:
 
@@ -655,7 +653,7 @@ mysql_secure_installation
 
 Komut dosyası sizden yeni bir root şifresi oluşturmanızı, anonim kullanıcıları kaldırmanızı, root oturum açma işlemini uzaktan devre dışı bırakmanızı, test veritabanını kaldırmanızı ve ayrıcalık tablosunu yeniden yüklemenizi isteyecektir:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/42.png" align="center" height="300">
+<img src="materials/42.png" align="center" height="300">
 
 **MariaDB** kurulumunu güvence altına aldıktan sonra, yeni şifreyi kullanarak terminalden **MariaDB** kabuğuna bağlanmayı deneyin:
 
@@ -664,7 +662,7 @@ Komut dosyası sizden yeni bir root şifresi oluşturmanızı, anonim kullanıc�
 MariaDB [(none)]> show databases;
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/43.png" align="center" height="300">
+<img src="materials/43.png" align="center" height="300">
 
 #### 🕯️ PHP için
 
@@ -700,11 +698,11 @@ listen = 127.0.0.1:9000
 
 Önce:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/44.png" align="center" height="300">
+<img src="materials/44.png" align="center" height="300">
 
 Sonra:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/45.png" align="center" height="300">
+<img src="materials/45.png" align="center" height="300">
 
 Değişiklikleri yaptıktan sonra **php-fpm**'yi başlatmanız, etkinleştirmeniz ve durumunu doğrulamanız gerekir:
 
@@ -728,11 +726,11 @@ vi /etc/php.ini
 
 Önce:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/46.png" align="center" height="300">
+<img src="materials/46.png" align="center" height="300">
 
 Sonra:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/47.png" align="center" height="300">
+<img src="materials/47.png" align="center" height="300">
 
 Daha sonra `/etc/lighttpd/modules.conf` adlı ikinci dosyayı açın.
 
@@ -744,11 +742,11 @@ vi /etc/lighttpd/modules.conf
 
 Önce:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/48.png" align="center" height="300">
+<img src="materials/48.png" align="center" height="300">
 
 Sonra:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/49.png" align="center" height="300">
+<img src="materials/49.png" align="center" height="300">
 
 
 Daha sonra `/etc/lighttpd/conf.d/fastcgi.conf` adlı üçüncü dosyayı açın.
@@ -771,11 +769,11 @@ fastcgi.server += ( ".php" =>
 
 Önce:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/50.png" align="center" height="300">
+<img src="materials/50.png" align="center" height="300">
 
 Sonra:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/51.png" align="center" height="300">
+<img src="materials/51.png" align="center" height="300">
 
 Değişiklikleri yansıtmak ve **PHP** desteğini etkinleştirmek için Lighttpd hizmetini yeniden başlatın:
 
@@ -883,9 +881,11 @@ Artık WordPress kurulum sayfasına gidebiliriz:
 http://localhost:8080/index.php
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/52.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/53.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/54.png" align="center" height="300">
+<img src="materials/52.png" align="center" height="300">
+</br>
+<img src="materials/53.png" align="center" height="300">
+</br>
+<img src="materials/54.png" align="center" height="300">
 
 Sistemdeki `wp-config.php` dosyasına yazma izniyle ilgili sorun yaşıyorsak.
 
@@ -897,11 +897,15 @@ chcon -t httpd_sys_rw_content_t /var/www/lighttpd/
 
 Tekrar deneyin
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/55.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/56.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/57.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/58.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/59.png" align="center" height="300">
+<img src="materials/55.png" align="center" height="300">
+</br>
+<img src="materials/56.png" align="center" height="300">
+</br>
+<img src="materials/57.png" align="center" height="300">
+</br>
+<img src="materials/58.png" align="center" height="300">
+</br>
+<img src="materials/59.png" align="center" height="300">
 
 
 Son olarak, `/var/www/lighttpd/` yolundaki `index.html` dosyasını yeniden adlandırmalı veya silmelisiniz:
@@ -942,7 +946,7 @@ firewall-cmd --reload
 
 VirtualBox ayarlarındaki **port yönlendirme** ayarından _5050_ bağlantı noktasını ekleyin:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/35.png" align="center" height="300">
+<img src="../debian/materials/35.png" align="center" height="300">
 
 Hizmeti oluşturmak için `/etc/systemd/system` dizininde `python-http-server.service` adında bir dosya oluşturun.
 
@@ -1012,4 +1016,4 @@ Disk imzanız geldiğinde 'signature.txt' dosyasına gönderip push alacaksını
 
 **🏁Ve son olarak README.md burada bitiyor..🏁**
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/matrix.gif" align="right" height="550">
+<img src="../debian/materials/matrix.gif" align="right" height="550">
