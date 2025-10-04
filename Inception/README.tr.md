@@ -1,62 +1,64 @@
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/Tesseract.gif" align="right" height="500">
+<img src="imgs/Tesseract.gif" align="right" height="500">
 
 # Inception
 
 Bu kurulum **Inception** ve **bonus bölümü** içerir.
 
 ## 🧭 Yol Haritası
-1. [Ön Hazırlık](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#one-k%C4%B1s%C4%B1m-1---%C3%B6n-haz%C4%B1rl%C4%B1k)
-   - [Paketleri Yükle](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#paketleri-y%C3%BCkle)
-   - [Yapılandırmalar](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#yap%C4%B1land%C4%B1rmalar)
-   - [VSCode Uzaktan Bağlantı](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#vscode-uzaktan-ba%C4%9Flant%C4%B1)
-   - [Docker Komutlarını sudo'suz Kullanmak](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#docker-komutlar%C4%B1n%C4%B1-sudo-olmadan-kullanmak-i%CC%87%C3%A7inz)
-2. [Inception](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#two-k%C4%B1s%C4%B1m-2---inception)
-   - [PID 1](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#pid-1)
-   - [CMD - ENTRYPOINT](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#cmd---entrypoint)
-   - [.sh Dosyaları Hakkında](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#sh-dosyalar%C4%B1-hakk%C4%B1nda)
-   - [Dockerfile'da Hassas Bilgilerin Güvenliği](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#dockerfileda-hassas-bilgilerin-g%C3%BCvenli%C4%9Fi)
-   - [ENV Değerleri Ne Zaman Container'a Aktarılır?](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#env-de%C4%9Ferleri-ne-zaman-konteynera-aktar%C4%B1l%C4%B1r)
-   - [.env Dosyası Docker'da Nasıl Çalışır?](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#env-dosyas%C4%B1-dockerda-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r)
-   - [Çok uzun bir konu başlığı](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#env-dosyas%C4%B1nda-ki-de%C4%9Ferlerle-olu%C5%9Fturulan-bir-sh-dosyas%C4%B1n%C4%B1--run-ile-%C3%A7al%C4%B1%C5%9Ft%C4%B1rmak-veya-entrypoint-cmd-ile-%C3%A7al%C4%B1%C5%9Ft%C4%B1rmak-aras%C4%B1nda-ki-fark)
-   - [latest Etiketi Hakkında](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#docker-imagelerin-taglerinin-latest-olmamas%C4%B1n%C4%B1-sa%C4%9Flama-ve-docker-compose-tag-ayar%C4%B1)
-   - [docker cp ile Hizmetlerin Yapılandırma Dosyalarını Alma](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#docker-cp-ile-servislerin-yap%C4%B1land%C4%B1rma-dosyalar%C4%B1n%C4%B1-alma)
-   - [docker inspect/logs/attach Komutları](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#docker-inspectlogsattach-komutlar%C4%B1)
-3. [Servisler](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#three-k%C4%B1s%C4%B1m-3---servisler)
-   - [Nginx için](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#yarn-nginx-i%C3%A7in)
-   - [WordPress için](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#thread-wordpress-i%C3%A7in)
-   - [MariaDB için](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#sewing_needle-mariadb-i%C3%A7in)
-4. [~ B O N U S ~](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#four-k%C4%B1s%C4%B1m-4----b-o-n-u-s-)
-   - [Adminer için](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#plunger-adminer-i%C3%A7in)
-   - [Website için](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#placard-website-i%C3%A7in)
-   - [Redis için](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#fire_extinguisher-redis-i%C3%A7in)
-   - [FTP Sunucusu için](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#sponge-ftp-server-i%C3%A7in)
-   - [Kendi Hizmetin için](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#window-kendi-servisiniz)
-   - [QEMU Servisi için](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#paintbrush-qemu-servisi-i%C3%A7in)
-5. [Sources](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#paperclip-kaynaklar)
-   - [VSCode](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#vs-code)
-   - [Docker Temelleri](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#docker-essentials)
-   - [Nginx](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#nginx)
-   - [WordPress](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#wordpress)
-   - [MariaDB](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#mariadb)
-   - [B O N U S](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#b-o-n-u-s)
-     - [Adminer](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#adminer)
-     - [Website](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#website)
-     - [Redis](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#redis)
-     - [FTP Sunucusu](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#ftp-server)
-     - [Kendi Hizmetin](https://github.com/Fartomy/42-Kickoff/blob/master/Inception/README.tr.md#own-service)
+1. [Ön Hazırlık](#one-k%C4%B1s%C4%B1m-1---%C3%B6n-haz%C4%B1rl%C4%B1k)
+   - [Paketleri Yükle](#paketleri-y%C3%BCkle)
+   - [Yapılandırmalar](#yap%C4%B1land%C4%B1rmalar)
+   - [VSCode Uzaktan Bağlantı](#vscode-uzaktan-ba%C4%9Flant%C4%B1)
+   - [Docker Komutlarını sudo'suz Kullanmak](#docker-komutlar%C4%B1n%C4%B1-sudo-olmadan-kullanmak-i%CC%87%C3%A7inz)
+2. [Inception](#two-k%C4%B1s%C4%B1m-2---inception)
+   - [PID 1](#pid-1)
+   - [CMD - ENTRYPOINT](#cmd---entrypoint)
+   - [.sh Dosyaları Hakkında](#sh-dosyalar%C4%B1-hakk%C4%B1nda)
+   - [Dockerfile'da Hassas Bilgilerin Güvenliği](#dockerfileda-hassas-bilgilerin-g%C3%BCvenli%C4%9Fi)
+   - [ENV Değerleri Ne Zaman Container'a Aktarılır?](#env-de%C4%9Ferleri-ne-zaman-konteynera-aktar%C4%B1l%C4%B1r)
+   - [.env Dosyası Docker'da Nasıl Çalışır?](#env-dosyas%C4%B1-dockerda-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r)
+   - [Çok uzun bir konu başlığı](#env-dosyas%C4%B1nda-ki-de%C4%9Ferlerle-olu%C5%9Fturulan-bir-sh-dosyas%C4%B1n%C4%B1--run-ile-%C3%A7al%C4%B1%C5%9Ft%C4%B1rmak-veya-entrypoint-cmd-ile-%C3%A7al%C4%B1%C5%9Ft%C4%B1rmak-aras%C4%B1nda-ki-fark)
+   - [latest Etiketi Hakkında](#docker-imagelerin-taglerinin-latest-olmamas%C4%B1n%C4%B1-sa%C4%9Flama-ve-docker-compose-tag-ayar%C4%B1)
+   - [docker cp ile Hizmetlerin Yapılandırma Dosyalarını Alma](#docker-cp-ile-servislerin-yap%C4%B1land%C4%B1rma-dosyalar%C4%B1n%C4%B1-alma)
+   - [docker inspect/logs/attach Komutları](#docker-inspectlogsattach-komutlar%C4%B1)
+3. [Servisler](#three-k%C4%B1s%C4%B1m-3---servisler)
+   - [Nginx için](#yarn-nginx-i%C3%A7in)
+   - [WordPress için](#thread-wordpress-i%C3%A7in)
+   - [MariaDB için](#sewing_needle-mariadb-i%C3%A7in)
+4. [~ B O N U S ~](#four-k%C4%B1s%C4%B1m-4----b-o-n-u-s-)
+   - [Adminer için](#plunger-adminer-i%C3%A7in)
+   - [Website için](#placard-website-i%C3%A7in)
+   - [Redis için](#fire_extinguisher-redis-i%C3%A7in)
+   - [FTP Sunucusu için](#sponge-ftp-server-i%C3%A7in)
+   - [Kendi Hizmetin için](#window-kendi-servisiniz)
+   - [QEMU Servisi için](#paintbrush-qemu-servisi-i%C3%A7in)
+5. [Sources](#paperclip-kaynaklar)
+   - [VSCode](#vs-code)
+   - [Docker Temelleri](#docker-essentials)
+   - [Nginx](#nginx)
+   - [WordPress](#wordpress)
+   - [MariaDB](#mariadb)
+   - [B O N U S](#b-o-n-u-s)
+     - [Adminer](#adminer)
+     - [Website](#website)
+     - [Redis](#redis)
+     - [FTP Sunucusu](#ftp-server)
+     - [Kendi Hizmetin](#own-service)
 
 ## :one: Kısım 1 - Ön Hazırlık
 
 Bu kurulum **Debian** tabanlıdır ancak herhangi bir dağıtımda seçilebilir.
-Bunun için sizi tanıdık kurulum talimatlarına yönlendireceğim. [B2B](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/README.tr.md#one-k%C4%B1s%C4%B1m-1---debian-y%C3%BCkleme).
+Bunun için sizi tanıdık kurulum talimatlarına yönlendireceğim. [B2B](../Born2beroot/debian/README.tr.md#one-k%C4%B1s%C4%B1m-1---debian-y%C3%BCkleme).
 
 ### VirtualBox Ağ Ayarı
 
 Port yönlendirmeleriyle uğraşmak zorunda kalmamak için, Vbox'taki ağ ayarlarında _**NAT**_ ayarını _**Köprü Bağdaştırıcısı**_ olarak değiştirin.
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/vboxbridgenetwork.JPG" align="center" height="800">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/bridgenetwork2.JPG" align="center" height="800">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/bridgenetwork3.JPG" align="center" height=800">
+<img src="imgs/vboxbridgenetwork.JPG" align="center" height="800">
+</br>
+<img src="imgs/bridgenetwork2.JPG" align="center" height="800">
+</br>
+<img src="imgs/bridgenetwork3.JPG" align="center" height=800">
 
 ### Paketleri Yükle
 
@@ -77,7 +79,7 @@ startx
 
 İçeriği siyah ekranda **sağ tıklayarak** görebilirsiniz.
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/openboxusage.JPG" align="center" height="800">
+<img src="imgs/openboxusage.JPG" align="center" height="800">
 
 ### Yapılandırmalar
 
@@ -85,11 +87,11 @@ Yine üşengeçliğimin bir yansıması olarak **sudo** ve **ssh** konfigürasyo
 
 #### Sudo Mini Config
 Sudo için, sudo yapılandırma dosyasındaki kök satırının altına `<kullanıcı adınız> ALL=(ALL:ALL) ALL` yazmanız yeterlidir. </br>
-[Sudo Yapılandırması](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#godmode-for-sudo)
+[Sudo Yapılandırması](../Born2beroot/debian#godmode-for-sudo)
 
 #### SSH Mini Config
 SSH için, bağlantı noktası satırındaki yorum satırını kaldırabilir ve ona istediğiniz bir bağlantı noktası numarası verebilirsiniz. İsteğe bağlı olarak, kök oturum açma izni için "PermitRootLogin"i "evet" olarak ayarlayın. </br>
-[SSH Yapılandırması](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#-for-ssh)
+[SSH Yapılandırması](../Born2beroot/debian#-for-ssh)
 
 Unutmayın:
 ```
@@ -101,13 +103,19 @@ Unutmayın:
 ### VSCode Uzaktan Bağlantı
 Bir sonraki bölümde neden bu kadar üşengeç olunduğunu daha iyi anlamak için bu üşengeçliği daha fazla uzatmayıp son kez kullanarak geleceğe yatırım yapın.
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/vscoderemote.JPG" align="center" height="800">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/vscoderemote2.jpg" align="center" height="800">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/vscoderemote3.jpg" align="center" height="800">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/vscoderemote4.jpg" align="center" height="800">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/vscoderemote5.jpg" align="center" height="800">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/vscoderemote6.jpg" align="center" height="800">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/vscoderemote7.jpg" align="center" height="800">
+<img src="imgs/vscoderemote.JPG" align="center" height="800">
+</br>
+<img src="imgs/vscoderemote2.jpg" align="center" height="800">
+</br>
+<img src="imgs/vscoderemote3.jpg" align="center" height="800">
+</br>
+<img src="imgs/vscoderemote4.jpg" align="center" height="800">
+</br>
+<img src="imgs/vscoderemote5.jpg" align="center" height="800">
+</br>
+<img src="imgs/vscoderemote6.jpg" align="center" height="800">
+</br>
+<img src="imgs/vscoderemote7.jpg" align="center" height="800">
 
 Buna benzer bir hata alırsanız: </br>
 
@@ -491,7 +499,7 @@ Yönetici, veritabanı tablolarının tarayıcı aracılığıyla görüntülenm
 
 #### Giriş yapmak için gerekli bilgiler
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/adminer-login.png" align="center" height="800">
+<img src="imgs/adminer-login.png" align="center" height="800">
 
 Servislere ağ üzerinden eriştiğimiz ve konteyner isimleri üzerinden eriştiğimiz için konteyner ismimizi `Server` yazan yere `mariadb` yazacağız.
 Daha sonra MariaDB kurulumunda ilk kez oluşturduğumuz `DB_USER` ve `DB_USER_PASS` ile kullanıcı bilgilerini girip, `DB_NAME` ile veritabanı ismimizi belirterek tabloları görüntüleyebiliriz.
@@ -795,8 +803,8 @@ Qemu docker dosyasında daha minimal içerik sunan ve debian 11 sürümünü tem
 1. [Error code: ssl_error_rx_record_too_long on nginx ubuntu server](https://stackoverflow.com/questions/25081239/error-code-ssl-error-rx-record-too-long-on-nginx-ubuntu-server)
 
 ### WordPress
-1. [Github Fartomy PHP](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#%EF%B8%8F-for-php)
-2. [Github Fartomy Wordpress](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#-for-wordpress)
+1. [Github Fartomy PHP](../Born2beroot/debian#%EF%B8%8F-for-php)
+2. [Github Fartomy Wordpress](../Born2beroot/debian#-for-wordpress)
 2. [Installing WP-CLI](https://make.wordpress.org/cli/handbook/guides/installing/)
 2. [WP Core Install](https://developer.wordpress.org/cli/commands/core/install/)
 2. [WP User Create](https://developer.wordpress.org/cli/commands/user/create/)
@@ -804,7 +812,7 @@ Qemu docker dosyasında daha minimal içerik sunan ve debian 11 sürümünü tem
 2. [Wordpress Theme Setup](https://wordpress.com/themes/free)
 
 ### MariaDB
-1. [Github Fartomy MariaDB](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#-for-mariadb)
+1. [Github Fartomy MariaDB](../Born2beroot/debian#-for-mariadb)
 
 #### B O N U S
 
@@ -864,4 +872,4 @@ Qemu docker dosyasında daha minimal içerik sunan ve debian 11 sürümünü tem
 
 🏁Ve son olarak README.md burada bitiyor..🏁
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Inception/imgs/googledream.jpg" align="center">
+<img src="imgs/googledream.jpg" align="center">
