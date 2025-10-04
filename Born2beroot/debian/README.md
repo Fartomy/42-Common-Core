@@ -1,4 +1,4 @@
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/debian_gif.gif" align="right" height="400">
+<img src="materials/debian_gif.gif" align="right" height="400">
 
 # Debian
 
@@ -6,31 +6,31 @@ This installation is based on **Debian** and **bonus part** is included.
 
 ## 🧭 Road Map
 
-1.  [Part 1 - Install Debian](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#one-part-1---install-debian)
+1.  [Part 1 - Install Debian](#one-part-1---install-debian)
 
-2. [Part 2 - Downloads and Adjustments and and Configurations](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#two-part-2---downloads-and-adjustments-and-and-configurations)
-   - [For SSH](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#-for-ssh)
-   - [For UFW](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#%EF%B8%8F-for-ufw)
-   - [For Sudo](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#godmode-for-sudo)
-   - [Password Policy](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#%EF%B8%8F-password-policy)
+2. [Part 2 - Downloads and Adjustments and and Configurations](#two-part-2---downloads-and-adjustments-and-and-configurations)
+   - [For SSH](#-for-ssh)
+   - [For UFW](#%EF%B8%8F-for-ufw)
+   - [For Sudo](#godmode-for-sudo)
+   - [Password Policy](#%EF%B8%8F-password-policy)
 
-3. [Part 3 - Monitoring.sh and Crontab Configurations](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#3%EF%B8%8F%E2%83%A3-part-3---monitoringsh-and-crontab-configurations)
+3. [Part 3 - Monitoring.sh and Crontab Configurations](#3%EF%B8%8F%E2%83%A3-part-3---monitoringsh-and-crontab-configurations)
 
-4. [Part Bonus - WordPress Setup and Choice of Your Service](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#%EF%B8%8F%E2%83%A3-part-bonus---wordpress-setup-and-choice-of-your-service)
+4. [Part Bonus - WordPress Setup and Choice of Your Service](#%EF%B8%8F%E2%83%A3-part-bonus---wordpress-setup-and-choice-of-your-service)
 
-      - [WordPress Setup](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#-wordpress-setup)
-         - [For Lighttpd](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#-for-lighttpd)
-         - [For MariaDB](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#-for-mariadb)
-         - [For PHP](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#%EF%B8%8F-for-php)
-         - [For WordPress](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#-for-wordpress)
-      - [Choice of Your Service](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#-choice-of-your-service)
+      - [WordPress Setup](#-wordpress-setup)
+         - [For Lighttpd](#-for-lighttpd)
+         - [For MariaDB](#-for-mariadb)
+         - [For PHP](#%EF%B8%8F-for-php)
+         - [For WordPress](#-for-wordpress)
+      - [Choice of Your Service](#-choice-of-your-service)
 
-6. [Part 4 - Submission and Peer-evaluation](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#4%EF%B8%8F%E2%83%A3-part-4---submission-and-peer-evaluation)
+6. [Part 4 - Submission and Peer-evaluation](#4%EF%B8%8F%E2%83%A3-part-4---submission-and-peer-evaluation)
 
-7. [Extras and Resources](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#5%EF%B8%8F%E2%83%A3-extras-and-resources)
+7. [Extras and Resources](#5%EF%B8%8F%E2%83%A3-extras-and-resources)
 
-   - [Extras](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#-extras)
-   - [Resources](https://github.com/Fartomy/42-Kickoff/tree/master/Born2beroot/debian#brain-resources)
+   - [Extras](#-extras)
+   - [Resources](#brain-resources)
   
 ## :one: Part 1 - Install Debian
 
@@ -44,17 +44,17 @@ After installing open virtualbox:
 
 Press the above will also be the new key!
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/1.png" align="center" height="325">
+<img src="materials/1.png" align="center" height="325">
 
 Next next next.. and 'Machine Folder' your machine folder path will be '/goinfre' but but be careful the hard disk file type will be vdi.
 
 And then choose **'.iso'** Debian file. Click on the virtual machine you have created and click **'settings'** above. and from there click on **'Storage'**, click on **'Empty'** and press the **CD** sign next to the **'Optical Drive'** option in the right window. From there, click on **'Choose Disk File'** and select your downloaded debian **'.iso' file.
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/2.png" align="center" height="325">
+<img src="materials/2.png" align="center" height="325">
 
 Setup video:
 
-[Debian Setup Video](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/setup_debian.mp4)
+[Debian Setup Video](materials/setup_debian.mp4)
 
 **🏁And finally Part 1 ends here..🏁**
 
@@ -62,8 +62,9 @@ Setup video:
 
 You will see this screen, probably this is the login screen
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/31.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/32.png" align="center" height="300">
+<img src="materials/31.png" align="center" height="300">
+</br>
+<img src="materials/32.png" align="center" height="300">
 
 You can see the partitions and encrypted partitions of your disk by running this command:
 
@@ -209,8 +210,9 @@ You should change these settings:
 - Hey! by the way just remove the '#' signs for the 2 settings I mentioned above. :d
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/33.png" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/34.png" align="center" height="300">
+<img src="materials/33.png" height="300">
+</br>
+<img src="materials/34.png" align="center" height="300">
 
 Okay, after making these settings, restart with the command:
 
@@ -224,8 +226,9 @@ You will see a button with a green **'+'** sign on the right, yes press it and s
 table will appear. Do as in the picture in the **'Host port'** and **'Guess Port'** sections. 
 I'm already adding a picture, I don't know why I felt the need to explain. Anyway, press ok ok and it's over.
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/35.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/36.png" align="center" height="300">
+<img src="materials/35.png" align="center" height="300">
+</br>
+<img src="materials/36.png" align="center" height="300">
 
 After doing these restart your virtual machine:
 
@@ -239,8 +242,9 @@ After these settings, you can now connect to the virtual machine from the your h
 ssh your_username@localhost -p 4242
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/37.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/38.png" align="center" height="300">
+<img src="materials/37.png" align="center" height="300">
+</br>
+<img src="materials/38.png" align="center" height="300">
 
 And you can access the virtual machine from the terminal of the host by entering the password of the user in your virtual machine.
 
@@ -309,7 +313,7 @@ Allow incoming requests to port 4242 or deny this port:
 # ufw deny 4242
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/39.png" align="center" height="300">
+<img src="materials/39.png" align="center" height="300">
 
 to delete a rule:
 
@@ -343,7 +347,7 @@ visudo -> Let's enter the configuration file with this command
 
 A screen like this should come:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/40.png" align="center" height="300">
+<img src="materials/40.png" align="center" height="300">
 
 Add some strict rules here:
  
@@ -408,7 +412,7 @@ If the sudo command gives a "command not found" error, this indicates that secur
 
 The last one should look like this:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/41.png" align="center" height="300">
+<img src="materials/41.png" align="center" height="300">
 
 To confirm these, you can exit _root_ and try what can be done with the `sudo` command.
 
@@ -423,7 +427,7 @@ nano /etc/login.defs
 ```
 You find it _Password aging control_:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/42.png" align="center" height="300">
+<img src="materials/42.png" align="center" height="300">
 
 Then do it like this:
 
@@ -449,7 +453,7 @@ To change:
 # chage <user_name>
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/43.png" align="center" height="300">
+<img src="materials/43.png" align="center" height="300">
 
 You know what to do..
 
@@ -468,7 +472,7 @@ nano /etc/security/pwquality.conf
 ```
 You will encounter something like this:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/44.png" align="center" height="300">
+<img src="materials/44.png" align="center" height="300">
 
 Here's what you need to change:
 
@@ -504,7 +508,7 @@ How does?
 
 If you want to examine it, I shared the _monitoring.sh_ file above.
 
-[Monitoring.sh](https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/monitoring.sh)
+[Monitoring.sh](../monitoring.sh)
 
 ### ⏰ Crontab (cron)
 
@@ -532,7 +536,7 @@ Anyway, write at the bottom:
 */10 * * * * bash /your/monitoring.sh_path
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/45.png" align="center" height="300">
+<img src="materials/45.png" align="center" height="300">
 
 **🏁And finally Part 3 ends here..🏁**
 
@@ -564,7 +568,7 @@ ufw allow 80
 
 Forward port _80_ from _port forwarding_ settings on **VirtualBox**.
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/41.png" align="center" height="300">
+<img src="../rocky/materials/41.png" align="center" height="300">
 
 #### 🧼 For MariaDB
 
@@ -785,9 +789,11 @@ Now we can go to the WordPress installation page:
 http://localhost:8080/index.php
 ```
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/52.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/53.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/54.png" align="center" height="300">
+<img src="../rocky/materials/52.png" align="center" height="300">
+</br>
+<img src="../rocky/materials/53.png" align="center" height="300">
+</br>
+<img src="../rocky/materials/54.png" align="center" height="300">
 
 
 We are having a problem with write permission to the `wp-config.php` file on the system.
@@ -798,11 +804,15 @@ chown -R www-data:www-data /var/www/html/
 
 Try again.
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/55.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/56.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/57.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/58.png" align="center" height="300">
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/rocky/materials/59.png" align="center" height="300">
+<img src="../rocky/materials/55.png" align="center" height="300">
+</br>
+<img src="../rocky/materials/56.png" align="center" height="300">
+</br>
+<img src="../rocky/materials/57.png" align="center" height="300">
+</br>
+<img src="../rocky/materials/58.png" align="center" height="300">
+</br>
+<img src="../rocky/materials/59.png" align="center" height="300">
 
 Lastly, you should rename or delete `index.lighttpd.html` file in the this path `/var/www/html/`:
 
@@ -836,7 +846,7 @@ ufw allow 5050
 
 Add the _5050_ port from the **port forwarding** setting in the virtualBox's settings:
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/35.png" align="center" height="300">
+<img src="materials/35.png" align="center" height="300">
 
 To create the service, create a file named `python-http-server.service` in the `/etc/systemd/system` directory:
 
@@ -950,4 +960,4 @@ nc <IPv4_adress> <port>
 
 **🏁And finally README.md ends here..🏁**
 
-<img src="https://github.com/Fartomy/42-Kickoff/blob/master/Born2beroot/debian/materials/matrix.gif" align="right" height="550">
+<img src="materials/matrix.gif" align="right" height="550">
