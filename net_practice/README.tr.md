@@ -2,24 +2,24 @@
 
 ##  🧭 Yol Haritası
 
-1. [IP Adresi: Ağ Katmanı](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#desert_island-ip-adresi-a%C4%9F-katman%C4%B1)
-   - [IPv4 - IPv6](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#candy-ipv4---ipv6)
-   - [Genel Adres - Özel Adres](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#ice_cube-genel-adres---%C3%B6zel-adres)
-2. [TCP](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#plate_with_cutlery-tcp)
-3. [TCP/IP Adresleme](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#mag_right-tcpip-adresleme)
-4. [OSI Modeli](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#roller_coaster-osi-modeli)
-   - [MAC Adresi (Fiziksel Adres)](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#statue_of_liberty-mac-adress-physical-adress)
-5. [Alt Ağ Maskesi](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#-alt-a%C4%9F-maskesi)
-   - [Ağ Adresini Bulma](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#roller_skate-a%C4%9F-adresini-bulma)
-   - [Ana Bilgisayar Adres Aralığını Bulma](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#fuelpump-ana-bilgisayar-adresleri-aral%C4%B1%C4%9F%C4%B1n%C4%B1-bulma)
-   - [CIDR Notasyon (/24)](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#oncoming_automobile-cidr-notasyonu-24)
-     - [Küçük bilgiler](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#canoe-k%C3%BC%C3%A7%C3%BCk-bilgiler)
-6. [Cihazlar](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#fireworks-cihazlar)
-   - [Anahtar](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#ocean-anahtar)
-   - [Yönlendirici](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#snowflake-y%C3%B6nlendirici)
-    - [Yönlendirme Tablosu](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#open_umbrella-y%C3%B6nlendirme-tablosu)
-7. [Tamamlanan Seviyeler](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#zap-tamamlanan-seviyeler)
-8. [Kaynaklar](https://github.com/Fartomy/42-Kickoff/blob/master/net_practice/Completed_Levels/README.tr.md#-kaynaklar)
+1. [IP Adresi: Ağ Katmanı](#desert_island-ip-adresi-a%C4%9F-katman%C4%B1)
+   - [IPv4 - IPv6](#candy-ipv4---ipv6)
+   - [Genel Adres - Özel Adres](#ice_cube-genel-adres---%C3%B6zel-adres)
+2. [TCP](#plate_with_cutlery-tcp)
+3. [TCP/IP Adresleme](#mag_right-tcpip-adresleme)
+4. [OSI Modeli](#roller_coaster-osi-modeli)
+   - [MAC Adresi (Fiziksel Adres)](#statue_of_liberty-mac-adress-physical-adress)
+5. [Alt Ağ Maskesi](#-alt-a%C4%9F-maskesi)
+   - [Ağ Adresini Bulma](#roller_skate-a%C4%9F-adresini-bulma)
+   - [Ana Bilgisayar Adres Aralığını Bulma](#fuelpump-ana-bilgisayar-adresleri-aral%C4%B1%C4%9F%C4%B1n%C4%B1-bulma)
+   - [CIDR Notasyon (/24)](#oncoming_automobile-cidr-notasyonu-24)
+     - [Küçük bilgiler](#canoe-k%C3%BC%C3%A7%C3%BCk-bilgiler)
+6. [Cihazlar](#fireworks-cihazlar)
+   - [Anahtar](#ocean-anahtar)
+   - [Yönlendirici](#snowflake-y%C3%B6nlendirici)
+    - [Yönlendirme Tablosu](#open_umbrella-y%C3%B6nlendirme-tablosu)
+7. [Tamamlanan Seviyeler](#zap-tamamlanan-seviyeler)
+8. [Kaynaklar](#-kaynaklar)
 
 
 ---
@@ -28,7 +28,7 @@
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/01a2bbd9-56ba-4797-9e88-14a880835243" height=300 alt="mask"></kbd>
+  <kbd><img src="imgs/1.png" height=300 alt="mask"></kbd>
 </p>
 </br>
 
@@ -76,7 +76,7 @@ TCP, bir ağ üzerinden iletilen verilerin bütünlüğünü garanti eder. Veril
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/0ff133d9-1e72-4878-818e-40d166b6c1fd" height=300 alt="mask"></kbd>
+  <kbd><img src="imgs/2.png" height=300 alt="mask"></kbd>
 </p>
 </br>
 
@@ -88,7 +88,7 @@ IP paketindeki iki ana protokol belirli işlevlere hizmet eder. TCP, uygulamalar
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/53c27b95-0d97-44ed-81b6-0adf3cb91dc0" height=300 alt="mask"></kbd>
+  <kbd><img src="imgs/3.png" height=300 alt="mask"></kbd>
 </p>
 </br>
 
@@ -104,7 +104,7 @@ Bununla birlikte, OSI modelinin temel ilkeleri ve katmanlar arası iletişim kav
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/140eae72-45ad-4276-b57f-778958c382e7" height=300 alt="mask"></kbd>
+  <kbd><img src="imgs/4.jpg" height=300 alt="mask"></kbd>
 </p>
 </br>
 
@@ -143,7 +143,7 @@ _Not: Linux işletim sistemi tarafından iki nokta üst üste onaltılık göste
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/e4636d7b-4373-4e13-83c1-e0f3a82a01ab" height=300 alt="mask"></kbd>
+  <kbd><img src="imgs/5.png" height=300 alt="mask"></kbd>
 </p>
 </br>
 
@@ -411,7 +411,7 @@ CIDR hesaplaması için 8 farklı alt ağımız varsa 2^3'ten 8 sayısını ald�
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/f92d0ec6-0784-4f34-9b0d-1bd1060899d0" height=150 alt="switch"></kbd>
+  <kbd><img src="imgs/6.png" height=150 alt="switch"></kbd>
 </p>
 </br>
 
@@ -423,7 +423,7 @@ Bir anahtar birden fazla cihazı tek bir ağda birbirine bağlar. Yönlendiricid
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/e744d1f8-7a54-45a3-8b55-31aba9cc4a69" height=200 alt="router"></kbd>
+  <kbd><img src="imgs/7.png" height=200 alt="router"></kbd>
 </p>
 </br>
 
@@ -437,7 +437,7 @@ Yönlendirici farklı ağları ayırdığından, arayüzlerinden birindeki olas�
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/e45173ab-7d80-482f-97f4-d87a85ef1bd5" height=150 alt="routing_table"></kbd>
+  <kbd><img src="imgs/8.png" height=150 alt="routing_table"></kbd>
 </p>
 </br>
 
@@ -498,7 +498,7 @@ Hedef 'varsayılan', '0.0.0.0/0'a eşdeğerdir.
 <details>
   <summary>Bölüm 1</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/af81441a-97e4-4ff1-b27f-43b41cbf8099" alt="level1">  
+  <img src="imgs/9.png" alt="level1">  
   <br>
   <br>
 
@@ -529,7 +529,7 @@ Alt ağ maskesi _255.255.255.0_'dır; bu, IP adresinin ilk 3 baytının ağı, 4
 <details>
   <summary>Bölüm 2</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/b78d4e39-9513-458b-97a6-9559d6d32d0c" alt="level2">
+  <img src="imgs/10.png" alt="level2">
   <br>
   <br>
 
@@ -595,7 +595,7 @@ Cevaplar, aşağıdaki koşulları karşıladıkları sürece herhangi bir adres
 <details>
   <summary>Bölüm 3</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/16cd9c0d-e3bb-48ce-b2f9-b70db33c79f1" alt="level3">
+  <img src="imgs/11.png" alt="level3">
   <br>
   <br>
 
@@ -626,7 +626,7 @@ _Arayüz B1_ ve _Arayüz C1_'in IP adresi, _İstemci A_'nın IP'si ile aynı ağ
 <details>
   <summary>Bölüm 4</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/a8cc1086-9098-48b7-86ce-a3914e8e6f82" alt="level4">
+  <img src="imgs/12.png" alt="level4">
   <br>
   <br>
 
@@ -661,7 +661,7 @@ _Arayüz B1_ ve _Arayüz R1_'in IP adresi, _Arayüz A1_'nin IP adresiyle aynı a
 <details>
   <summary>Bölüm 5</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/d2cb2a2b-818a-49b6-96cc-32a9549e64da" alt="level5">
+  <img src="imgs/13.png" alt="level5">
   <br>
   <br>
 
@@ -689,7 +689,7 @@ Bir sonraki atlama adresi, paketlerin yolundaki bir sonraki yönlendiricinin ara
 <details>
   <summary>Bölüm 6</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/dc7a9084-3692-4eea-9ffd-695c6ea99278" alt="level6">
+  <img src="imgs/14.png" alt="level6">
   <br>
   <br>
 
@@ -748,7 +748,7 @@ _40.178.145.227/25_ hedefi, _40.178.145.128/25_ hedef adresine eşdeğerdir, ç�
 <details>
   <summary>Bölüm 7</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/de397d14-f928-4910-b103-b0734908f478" alt="level7">
+  <img src="imgs/15.png" alt="level7">
   <br>
   <br>
 
@@ -788,7 +788,7 @@ Bir maskenin olası aralıklarını hesaplamak için:
 <details>
   <summary>Bölüm 8</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/e06e41ca-26cf-4db3-a1da-77308609dd42" alt="level8">
+  <img src="imgs/16.png" alt="level8">
   <br>
   <br>
 
@@ -830,7 +830,7 @@ Ağ adresinin (ilk) ve yayın adresinin (sonuncu) her aralıktan hariç tutulmas
 <details>
   <summary>Bölüm 9</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/0c8eb303-c1a9-404d-8682-db2f88ae8d36" alt="level9">
+  <img src="imgs/17.png" alt="level9">
   <br>
   <br>
 
@@ -858,7 +858,7 @@ _İnternet_'in 3. hedefi ve _Router R1'in_ hedefi için boş bir alanın olması
 <details>
   <summary>Bölüm 10</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/d54c692e-6a5f-4c2f-bead-9686e95dd080" alt="level10">
+  <img src="imgs/18.png" alt="level10">
   <br>
   <br>
 
