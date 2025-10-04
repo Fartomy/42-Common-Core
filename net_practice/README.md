@@ -2,24 +2,24 @@
 
 ##  🧭 Road Map
 
-1. [IP Adress: Network Layer](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#desert_island-ip-adress-network-layer)
-   - [IPv4 - IPv6](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#candy-ipv4---ipv6)
-   - [Public Adress - Private Adress](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#ice_cube-public-adress---private-adress)
-2. [TCP](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#plate_with_cutlery-tcp)
-3. [TCP/IP Adressing](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#mag_right-tcpip-adressing)
-4. [OSI Model](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#roller_coaster-osi-model)
-   - [MAC Adress (Physical Adress)](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#statue_of_liberty-mac-adress-physical-adress)
-5. [Subnet Mask](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#-subnet-mask)
-   - [Finding Network Adress](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#roller_skate-finding-the-network-address)
-   - [Finding the Range of Host Adress](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#fuelpump-finding-the-range-of-host-addresses)
-   - [CIDR Notation (/24)](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#oncoming_automobile-cidr-notation-24)
-     - [Mini Infos](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#canoe-mini-infos)
-6. [Devices](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#fireworks-devices)
-   - [Switch](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#ocean-switch)
-   - [Router](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#snowflake-router)
-    - [Routing Table](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#open_umbrella-routing-table)
-7. [Completed Levels](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#zap-completed-levels)
-8. [Resources](https://github.com/Fartomy/42-Kickoff/tree/master/net_practice/Completed_Levels#-resources)
+1. [IP Adress: Network Layer](#desert_island-ip-adress-network-layer)
+   - [IPv4 - IPv6](#candy-ipv4---ipv6)
+   - [Public Adress - Private Adress](#ice_cube-public-adress---private-adress)
+2. [TCP](#plate_with_cutlery-tcp)
+3. [TCP/IP Adressing](#mag_right-tcpip-adressing)
+4. [OSI Model](#roller_coaster-osi-model)
+   - [MAC Adress (Physical Adress)](#statue_of_liberty-mac-adress-physical-adress)
+5. [Subnet Mask](#-subnet-mask)
+   - [Finding Network Adress](#roller_skate-finding-the-network-address)
+   - [Finding the Range of Host Adress](#fuelpump-finding-the-range-of-host-addresses)
+   - [CIDR Notation (/24)](#oncoming_automobile-cidr-notation-24)
+     - [Mini Infos](#canoe-mini-infos)
+6. [Devices](#fireworks-devices)
+   - [Switch](#ocean-switch)
+   - [Router](#snowflake-router)
+    - [Routing Table](#open_umbrella-routing-table)
+7. [Completed Levels](#zap-completed-levels)
+8. [Resources](#-resources)
 
 
 ---
@@ -28,7 +28,7 @@
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/01a2bbd9-56ba-4797-9e88-14a880835243" height=300 alt="mask"></kbd>
+  <kbd><img src="imgs/1.png" height=300 alt="mask"></kbd>
 </p>
 </br>
 
@@ -76,7 +76,7 @@ TCP guarantees the integrity of the data being communicated over a network. Befo
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/0ff133d9-1e72-4878-818e-40d166b6c1fd" height=300 alt="mask"></kbd>
+  <kbd><img src="imgs/2.png" height=300 alt="mask"></kbd>
 </p>
 </br>
 
@@ -88,7 +88,7 @@ The two main protocols in the IP suite serve specific functions. TCP defines how
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/53c27b95-0d97-44ed-81b6-0adf3cb91dc0" height=300 alt="mask"></kbd>
+  <kbd><img src="imgs/3.png" height=300 alt="mask"></kbd>
 </p>
 </br>
 
@@ -104,7 +104,7 @@ Nevertheless, the basic principles of the OSI model and the concepts of interlay
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/140eae72-45ad-4276-b57f-778958c382e7" height=300 alt="mask"></kbd>
+  <kbd><img src="imgs/4.jpg" height=300 alt="mask"></kbd>
 </p>
 </br>
 
@@ -143,7 +143,7 @@ _Note: Colon-Hexadecimal notation is used by Linux OS and Period-separated Hexad
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/e4636d7b-4373-4e13-83c1-e0f3a82a01ab" height=300 alt="mask"></kbd>
+  <kbd><img src="imgs/5.png" height=300 alt="mask"></kbd>
 </p>
 </br>
 
@@ -411,7 +411,7 @@ Since the first 3 octets (the 1s represent the network) are already 255, we get 
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/f92d0ec6-0784-4f34-9b0d-1bd1060899d0" height=150 alt="switch"></kbd>
+  <kbd><img src="imgs/6.png" height=150 alt="switch"></kbd>
 </p>
 </br>
 
@@ -423,7 +423,7 @@ A switch connects multiple devices together in a single network. Unlike a router
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/e744d1f8-7a54-45a3-8b55-31aba9cc4a69" height=200 alt="router"></kbd>
+  <kbd><img src="imgs/7.png" height=200 alt="router"></kbd>
 </p>
 </br>
 
@@ -437,7 +437,7 @@ Since the router separates different networks, the range of possible IP addresse
 
 </br>
 <p align="center">
-  <kbd><img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/e45173ab-7d80-482f-97f4-d87a85ef1bd5" height=150 alt="routing_table"></kbd>
+  <kbd><img src="imgs/8.png" height=150 alt="routing_table"></kbd>
 </p>
 </br>
 
@@ -498,7 +498,7 @@ The destination `default` is equivalent to `0.0.0.0/0`.
 <details>
   <summary>Level 1</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/af81441a-97e4-4ff1-b27f-43b41cbf8099" alt="level1">  
+  <img src="imgs/9.png" alt="level1">  
   <br>
   <br>
 
@@ -529,7 +529,7 @@ The solution will be anything in the range of **211.191.0.0 - 211.191.255.255**,
 <details>
   <summary>Level 2</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/b78d4e39-9513-458b-97a6-9559d6d32d0c" alt="level2">
+  <img src="imgs/10.png" alt="level2">
   <br>
   <br>
 
@@ -595,7 +595,7 @@ The answers can then be any address, as long as they meet the following conditio
 <details>
   <summary>Level 3</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/16cd9c0d-e3bb-48ce-b2f9-b70db33c79f1" alt="level3">
+  <img src="imgs/11.png" alt="level3">
   <br>
   <br>
 
@@ -626,7 +626,7 @@ The IP address of _Interface B1_ and _Interface C1_ must be on the same network 
 <details>
   <summary>Level 4</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/a8cc1086-9098-48b7-86ce-a3914e8e6f82" alt="level4">
+  <img src="imgs/12.png" alt="level4">
   <br>
   <br>
 
@@ -661,7 +661,7 @@ Note that we did not interact with the router _Interface R2_ and _Interface R3_,
 <details>
   <summary>Level 5</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/d2cb2a2b-818a-49b6-96cc-32a9549e64da" alt="level5">
+  <img src="imgs/13.png" alt="level5">
   <br>
   <br>
 
@@ -689,7 +689,7 @@ The next hop address must be the IP address of the next router's interface on th
 <details>
   <summary>Level 6</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/dc7a9084-3692-4eea-9ffd-695c6ea99278" alt="level6">
+  <img src="imgs/14.png" alt="level6">
   <br>
   <br>
 
@@ -748,7 +748,7 @@ A destination of _40.178.145.227/25_ is equivalent to the destination address _4
 <details>
   <summary>Level 7</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/de397d14-f928-4910-b103-b0734908f478" alt="level7">
+  <img src="imgs/15.png" alt="level7">
   <br>
   <br>
 
@@ -788,7 +788,7 @@ To calculate the possible ranges of a mask:
 <details>
   <summary>Level 8</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/e06e41ca-26cf-4db3-a1da-77308609dd42" alt="level8">
+  <img src="imgs/16.png" alt="level8">
   <br>
   <br>
 
@@ -830,7 +830,7 @@ Note that the network address (first) and the broadcast address (last) must be e
 <details>
   <summary>Level 9</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/0c8eb303-c1a9-404d-8682-db2f88ae8d36" alt="level9">
+  <img src="imgs/17.png" alt="level9">
   <br>
   <br>
 
@@ -858,7 +858,7 @@ It is normal to have an empty field for the 3rd destination of the _internet_, a
 <details>
   <summary>Level 10</summary>
   <br>
-  <img src="https://github.com/Fartomy/42-Kickoff/assets/58911876/d54c692e-6a5f-4c2f-bead-9686e95dd080" alt="level10">
+  <img src="imgs/18.png" alt="level10">
   <br>
   <br>
 
