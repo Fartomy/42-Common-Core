@@ -28,6 +28,7 @@
 | **CPP Module 06** |    This module is designed to help you understand the different casts in CPP. |
 | **CPP Module 07** |    This module is designed to help you understand Templates in CPP. |
 | **CPP Module 08** |    This module is designed to help you understand templated containers, iterators and algorithms in CPP.|
+| **CPP Module 09** |    This module is designed to help you understand containers in C++. |
   
 ## Part 3: Senior
 | Project Name         | Description  |
