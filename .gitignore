@@ -3,3 +3,5 @@
 a.out
 .vscode
 .idea
+.mypy_cache
+__pycache__
